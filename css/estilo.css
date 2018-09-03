@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 10px;
+}
+
+.principal{
+	background-color: #dcdcdc;
+	width: 1300px;
+	margin: auto;
+	margin-left: 2px;
+    font: 10px;
+	margin-top: 5px;
+	padding: 30px;
+	float: left;
+	border-left: 100px;  
+}
+figcaption{ /*sem acao*/
+	margin-top: 100px;
+}
+/*.banner{ 
+	border-bottom: 0px solid red;
+	width: 100%;
+	height: 1000px;
+	border: 5px solid #808080;*/
+	
+}
+.fundo{
+	margin-top: 30px; /*sem acao*/
+	width: 100%;
+	height: 650px; /*sem acao*/
+	float: left;
+	background-image: url(../imagens/robotica.jpg);
+	background-repeat: none;
+	background-position: 40%;
+}
+li{
+	background: #A9A9A9;
+	width: 100px;
+	height: 20px;
+	line-height: 15px;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+    margin-left:50px;
+    text-align: center;
+    border-color: black;
+
+
+
+}
+.fotos li{
+	
+	width: 100px;
+	height: 10px;
+	line-height: 150px;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 0px;
+	cursor: pointer;
+    margin-left: 20px;
+    text-align: center;
+    border-color: black;
+
+}
+ .inicio{
+  	background-color:#808080;
+  	margin-top: 50px;
+  	width: 840px;
+  	height: 1750px;
+  	float: left;
+    font-size: 1em;
+    text-align: justify;
+    font-family: Arial; 
+
+}
+
+aside{
+  	background-color:#dddddd ;
+  	width: 350px;
+  	margin-top: 10px;
+  	height: 1210px;
+  	float: left;
+  	margin-left: 5px; 
+
+  	
+}
+footer{
+  	background-color: #dddddd;
+  	width: 1230px;
+  	height: 50px;
+  	clear: both;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+
+  }
+
+li:hover{
+background-color: #c0c0c0;
+}
+
+
+header{
+	width: 100%;
+    height: 880px;
+
+	
+}
+.logo{
+	;/*--
+	width: 20%;
+	margin-top: 10px
+	height: 550px;
+	float: left;
+	background-color: #dddddd;
+	color: #ffffff;
+	font: 90% Arial;*..*/
+}
+
+
+
+img{
+	border: 2px solid #808080;
+	border-radius: 100px;
+	padding: 5px;
+	transition: 0.5s;
+	;
+
+
+} 
+
+
+img:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+h1{ /*semfunao*/
+	font-size: 10em;
+	margin-left: 350px;
+}
+
+.fundo{
+	margin-top: 10px;
+	width: 100%;
+	height: 550px;
+	float: left;
+	background-image: url(../imagens/robotica.jpg);
+	background-repeat: none;
+	background-position: 40%;
+}
+
+
+h2{
+	font: 4em Arial;
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 200px;
+    transition: 1s;
+    }
+    h2:hover{
+	background-color: rgba(0,0,0,0.4);
+	transition: 1s;
+}
+h3{
+    color: black;
+	margin-left:  25px;
+	margin-top: 10px;
+	font-size: 50px;
+	font-family: "Merienda", cursive;
+	}
+h4{
+	margin-top: 1px;
+	margin-left: 300px;
+   color: black;
+   font-family: 'Merienda', cursive;
+   font: 3em Arial;
+   width: 140px;
+padding-left: 20px;
+border-right: 10px;
+}
+h5{
+	background-color: #191970;
+	height: 270px;
+	color: #ffffff;
+	margin-top: 10px;
+	border-top: 10px;
+
+}
+article#curiosidade{
+	font-size: 20px;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    margin-top: 45px;
+
+ 
+}
+footer{
+  	background-color: #dddddd;
+  	width: 1250px;
+  	height: 20px;
+  	clear: both;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  }
+
+
+.container{
+ width: 70%;
+ height: auto;
+ margin: auto;
+ text-align: center;
+ display: flex;
+}
+figure{
+	width: 125px;
+	
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 20px;
+
+
+}
+figure{
+	width: 100px;
+	margin: auto;
+	text-align: center;
+	margin-top: 70px;
+	display: flex;
+}
+.submenu{
+
+	background-color: black;
+	width: 100px;
+	height: 30px;
+
+}
+
+}
