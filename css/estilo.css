@@ -27,7 +27,7 @@ figcaption{ /*sem acao*/
 .fundo{
 	margin-top: 30px; /*sem acao*/
 	width: 100%;
-	height: 650px; /*sem acao*/
+	height: 1150px; /*sem acao*/
 	float: left;
 	background-image: url(../imagens/robotica.jpg);
 	background-repeat: none;
@@ -67,7 +67,7 @@ li{
   	background-color:#808080;
   	margin-top: 50px;
   	width: 840px;
-  	height: 1750px;
+  	height: 2250px;
   	float: left;
     font-size: 1em;
     text-align: justify;
@@ -183,9 +183,9 @@ padding-left: 20px;
 border-right: 10px;
 }
 h5{
-	background-color: #191970;
-	height: 270px;
-	color: #ffffff;
+	background-color: #c0c0c0;
+	height: 240px;
+	color: black;
 	margin-top: 10px;
 	border-top: 10px;
 
