@@ -1,203 +1,135 @@
-<!DOCTYPE html><!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html>
 <head>
-	<title>Catia Souza</title>
-	<meta charset="utf-8">
-	<meta name="author" content="Catia Souza">
-	<meta name="description" content="portfolio">
-	<link rel="stylesheet"  href="css/estilo.css">
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Lobster" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" type="text/css" href="stilo.css">
 </head>
-<body>
-
-
-       <div class="principal">
-        
-	<header>
-
-		   <!-- <section class="logo">
-			   <figure>
-      			 <img src="imagens/pose.jpg" alt="Catia Souza" title="Catia Souza">
-         </figure>
-        </section>
----->
-
-		    <section class="fundo">
-	         <h2>Seja Bem Vindo...</h2>
-        </section>
-	
-	     <ul type="disc">
-	     <li><a href="#Inicio">Inicio</a></li>
-	     <li><a href="#Sobre">Sobre</a></li>
-	     <li><a href="#Servicos">Servicos</a></li>
-	     <li><a href="#Portfolio">Portfolio</a></li>
-	     <li><a href="#Contato">Contato</a></li>
-
-
-
-        <section class="inicio">
-
-          <h4><font face= "Merienda, cursive";"size= "5" color="black"><a name="Sobre">Sobre</h4></a>
-                   <br>
-                               <p><font face= "Arial"size= "4" color="black" ><p>Minha tragetoria profissional foi desenvolvida ao oposto da tecnologia. Recentemente iniciei o curso de Analise e Desenvolvimento de Sistemas, devido a constante convivio na area por meio de  familiares, a tecnologia me envolveu. </p>
-                      <br>
-            <p>Com cursos paralelos, como HTML5, CSS, noções basicas de desenvovimento para Android e Java, meu objetivo é ser uma desenvolvedora com diferencial e não apenas mais uma no mercado.
-            
-                     <br>
-            Com dinamismo e criatividade,  para superar expectativas precisamos de muito mais que conhecimento, e sim foco, determinação e responsabilidade.
-
-          
-       
-        <section>
-          <h4><font face= "Merienda, cursive";"size= "5" color="black"><a name="Servicos">Servicos</h4></a>
-              <font face= "Arial"size= "4" color="black" >
-            Desenvolvimento de sites
-                <br>
-            Sites pessoal ou empresarial, com um design sofisticado e bem elaborado.
-                <br>
-            Manutencão e atualização de website
-                <br>
-            Acompanhamento da evolução tecnologica e tendencia do mercado.
-                <br>
-            Registro de domínio e criação de contas de e-mail
-                <br>
-            Contratação de provedor de hospedagem
-                <br>
-            Transferência de website para outro domínio / provedor de hospedagem
-
-
-         </section>
-
-
-         <section>
-            <h4><font face= "Merienda, cursive";"size= "5" color="black"><a name="Portfolio">Portfolio</h4></a> 
-                        <br>
-                 <font face= "Arial"size= "4" color="black">Projeto para fins de estudo :
-                        <br>
-                <a href="http://www.samoieda.com.br/index.html" target="_blank">www.samoieda.com.br</a>
-          </section>
-           
-         <section>
-        <h4><font face= "Merienda, cursive";"size= "2" color="black"><a name="Contato" >Contato</h4></a></font></h4></section></font></font></h4>
-
-
-
-
-
-   <fieldset id="usuario"><legend>
-   Identificacão do Usuario:</legend>
-   
-
-   <p><label for="cText">Nome </label><input type="text" name="tText" id="cText" size="30" maxlength="40" placeholder="Nome "></p>
-    
-   <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="30" maxlength="40"  placeholder="Digite seu E-mail"></p>
-   
  
-  </fieldset>
-  
+<meta charset="utf-8"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/stilo.css">
+    <link rel="stylesheet"  href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Great+Vibes" rel="stylesheet">
 
-        </datalist>
-    </fieldset>
+    <script language="javascript" src ="jquery/jquery-3.3.1.min.js"></script>
+    <script language="javascript" src ="jquery/jquery.carouFredSel-6.2.0-packed.js"></script>
+    <script language="javascript" src ="jquery/main.js"></script>
+</head>
+
+<body>
+   <div class="container">
+<!---cabecalho--->
+
+   <div class="logo">
+      <img src="imagens/logo.png">
+  </div>
+
+  <div class="coluna_menu borda_arredondada">
+    <ul class="link_ul"> 
+
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="sobre.html">SOBRE</a></li>
+    <li><a href="projeto.html">PORTFOLIO</a></li>
+    <li><a href="contato.html">CONTATO</a></li>
+
+    </ul>
+  </div>
+<!--//cabecacho---->
+
+<!---slider--->
+   <div class="row ei">
+       <div id="containerSlider">
+          <div id="wrapper">
+          <div id="images">
+          <div class="carousel">
+
+                <img src="imagens/segundo.jpg" width="1325" height="500" alt="copia01">
+                <img src="imagens/futuro.jpg" width="1325" height="500" alt="copia02">
+                <img src="imagens/velocidade0.jpg" width="1325" height="500" alt="copia03">
+           </div>
+
+          <div id="timer"></div>
+          <div id="captions">
+          <div class="carousel">
+          <div class="copia01 fontes"><center></center>
+          <div class="pager"></div>
+          </div>
+          <div class="copia02 fontes"><center></center>
+          <div class="pager"></div>
+          </div>
+          <div class="copia03 fontes"><center></center>
+          <div class="pager"></div>
+          </div>
+          </div>
+          </div>
     
+  </div>
+    </div>
+       </div>
 
-    <fieldset id="duvidas"><legend>
-      Contato:</legend>
-    
-       <textarea name="tMsg" id="cMsg" cols="50" rows="8" placeholder="Deixe aqui suas Duvidas"></textarea> 
-    </fieldset>
+     
+     
+<!--//slider--->
 
-    <fieldset >
-      <input type="submit" value="Enviar"/>
-   
-  </fieldset>
-  </form>
+<!---Icone--->
+  <h1><center>O Que Faz um Desenvolvedor FrontEnd?</h1></center>
 
-
-
-<lo><a href="https://www.facebook.com/catia.souza.7731" target="_blank"><img src="imagens/f.png" alt=""/></a></lo>
-<lo><a href="https://www.instagram.com/catiasouza80" target="_blank"><img src="imagens/inst.jpg" alt=""/></a></lo>
-       
-<lo><a href="https://www.linkedin.com/in/catia-souza" target="_blank"><img src="imagens/li.jpg" alt="" title="" /></a></lo>
+      <div class="inicio">
 
 
 
-<ol>catiamsouza80@gmail.com<img src="imagens/email.jpg" alt=""/></a></lo>
-<ol>Tel:(11) 96830-9139<img src="imagens/wsp.png" alt=""/></lo>
-   <form method="post" id="fContato" action="mailto:catiamsouza80@gmail.com">
+<p>É muito comum confundir o papel do front-end developer com o de um WEB designer. Podemos dizer que o front-end developer dá vida ao trabalho de um WEB designer, e sua missão é projetar, construir e otimizar as interfaces de projetos website. Somos nós que trabalhamos com o HTML e o CSS para construir as páginas web,  produzindo o layout do produto digital e criando interatividade entre os elementos da página ou do aplicativo. Dessa forma, o profissional não está inserido num único time, mas costuma transitar entre as áreas de design, de desenvolvimento back-end, de infraestrutura e de QA.</p>
 
+ 
 
+<p>Nos últimos anos, as aplicações WEB deixaram de ser páginas simples e ganharam grande complexidade. Hoje, temos sites que possuem interfaces avançadas, com requisições assíncronas, animações, design responsivo, etc. Por isso o mercado procura  um profissional mais qualificado, que vai muito mais além de recortar templates e montar HTMLs, o profissional precisa saber construir grandes aplicações, saber programar e ter uma boa noção de tudo que acontece no stack do navegador até o servidor.</p>
 
+ 
 
+<p>Esta profissão tem muita importância no sucesso do projeto, pois 80% do tempo de carregamento de uma página é gasto nos elementos de front-end (css, javascript, imagens...) e as interfaces estão ficando cada dia mais complexas, tornando essencial a especialização dos profissionais.</p>
 
+ 
 
-<header>
-
-<div class="fotos">
-</div>
-   
+<p>O profissional deve estar atualizado com as novas tendências, como bibliotecas e frameworks. Além disso, deve ser flexível a mudanças e transitar bem por todas as áreas da empresa. Por fim, é essencial ser meticuloso na qualidade da entrega.</p>
   
-       <br>
-       
-
-         
-           <section>
-         <h5> <font face= "Arial"size= "5">VC SABIA?<br><br>
-          <font face= "Arial"size= "3">Teclado QWERTY:<br><br>
-Quem é que nunca tentou digitar uma palavra ou até mesmo uma frase utilizando apenas uma linha do teclado? <br>Mas saiba, isso é possível. A palavras Alaska, estado norte-americano, pode ser digitada na mesma linha em um teclado QWERTY. Interessante, não é mesmo????? 
-               <br>
-
-          
-
-           </section>
-         </section>
-         </section>
-
-         <article id="curiosidade">
-
-         <aside><h3>Curiosidades</h3>
-                 <br>
-           Existe uma fábrica no Japão que trabalha somente com robôs e pode ficar cerca de 30 dias sem supervisão de humanos.
-                <br>
-                <br>
-         <img src="imagens/roboum.jpg"  >
-                      <br>
-        Jobs deixou o primeiro protótipo do iPod cair em um aquário para provar que ele não gerava bolhas de ar, demonstrando que não havia espaços vazios em seu interior e que o produto não poderia ser menor.
-           <br>
-           <br>
-        <img src="imagens/jobs.jpg">   
-           <br>
-           <br>
-          A primeira página web do mundo continua intacta no ar.
-A página continua em seu endereço original, no site da Organização Europeia para a Pesquisa Nuclear (CERN), sem mudanças: nada de cores ou imagens, apenas texto e alguns links.
-           <br>
-           <br>
-        <img src="imagens/como.jpg">
-           <br>
-           <br>
-        
-          
-              <img src="imagens/pose.jpg" alt="Catia Souza" title="Catia Souza" alt="">
-              <br>
-Catia Souza | HTML5 CSS3
-
-
-
-        </article>
-       
-        </aside>
-
-        
-
-
-         <footer>
-             <center><font face= "Arial"size= "4" color="black"> <h6>&copy;2018 Catia Souza- Todos Direitos Reservados.</a></h6></center>
-         </footer>
-</header>
-
 </div>
+ <br>
+      <div>
+        <center>  <img src="imagens/image003.jpg"></center>
+      </div>
+        <br>
+        <br>
+<!--//Icone--->
+
+
+
+<!--Rodape--->
+      <div id="divExterna">
+“Antes do software poder ser reutilizável ele primeiro tem de ser utilizável.” Ralph Johnson
+      </div>
+
+ <br>
+ <br> 
+ <br>
+ <div class="rodape">
+           
+              <center>&copy;2018 Catia Souza- Todos Direitos Reservados.</center>
+
+     </div>
+<!---//Rodape---->
+
 </body>
+
 </html>
-	
+
+
+
+
+
+
+
+
+
+
+
